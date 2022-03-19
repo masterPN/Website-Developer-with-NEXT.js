@@ -1,6 +1,8 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import IconItem from '../components/IconItem'
+import SearchInput from '../components/SearchInput'
 
 const Home: NextPage = () => {
   return (
@@ -17,11 +19,18 @@ const Home: NextPage = () => {
             <div id='flex-3'>
               <Image src={'/logo.svg'} width={36} height={36} alt={'logo'} />
               <nav>
+                <a href="./" className='menu-item'>All</a>
+                <a href="./" className='menu-item'>Apparel</a>
+                <a href="./" className='menu-item'>Gadget</a>
               </nav>
               <div className={'icon-menu'}>
+                <IconItem icon={'menu'}></IconItem>
               </div>
             </div>
+            <SearchInput></SearchInput>
             <div id='flex-4'>
+              <IconItem icon={'bag'}></IconItem>
+              <IconItem icon={'user'}></IconItem>
             </div>
           </div>
         </div>
