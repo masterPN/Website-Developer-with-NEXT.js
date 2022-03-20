@@ -2,7 +2,9 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import IconItem from '../components/IconItem'
+import RectBanner from '../components/RectBanner'
 import SearchInput from '../components/SearchInput'
+import SquareImage from '../components/SquareImage'
 
 const Home: NextPage = () => {
   return (
@@ -36,6 +38,12 @@ const Home: NextPage = () => {
 
       <main className='main' id='flex-1'>
         <div className='banner-gallery' id='flex-5'>
+          <RectBanner size='large'></RectBanner>
+          <SquareImage size='small'></SquareImage>
+          <SquareImage size='small'></SquareImage>
+          <SquareImage size='medium'></SquareImage>
+          <SquareImage size='small'></SquareImage>
+          <SquareImage size='small'></SquareImage>
         </div>
         <h1 className='heading'>Products</h1>
         <div className='product-list' id='flex-6'>
