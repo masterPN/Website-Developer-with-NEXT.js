@@ -13,7 +13,6 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className='main' id='flex-1'>
         <div className='header-nav'>
           <div className='container' id='flex-2'>
             <div id='flex-3'>
@@ -35,6 +34,7 @@ const Home: NextPage = () => {
           </div>
         </div>
 
+      <main className='main' id='flex-1'>
         <div className='banner-gallery' id='flex-5'>
         </div>
         <h1 className='heading'>Products</h1>
