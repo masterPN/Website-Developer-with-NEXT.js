@@ -136,6 +136,7 @@ button {
 }
 
 #flex-1 {
+    text-align: center;
 }
 
 #flex-2 {
@@ -173,6 +174,7 @@ button {
     flex-direction: row;
     margin: auto;
     margin-bottom: 3em;
+    text-align: left;
 }
 
 #flex-8 {
