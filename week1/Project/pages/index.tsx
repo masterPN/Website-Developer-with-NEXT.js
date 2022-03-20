@@ -73,8 +73,11 @@ const Home: NextPage = () => {
         </div>
         <div className='promotion-banner'>
           <div className={'promotion-banner-left'} id={'flex-9'}>
+            <RectBanner size='small'></RectBanner>
+            <RectBanner size='small'></RectBanner>
           </div>
           <div className={'promotion-banner-right'} id={'flex-10'}>
+            <RectBanner size='medium'></RectBanner>
           </div>
         </div>
       </main>
