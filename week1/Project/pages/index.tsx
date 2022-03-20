@@ -69,6 +69,7 @@ const Home: NextPage = () => {
             </p>
             <button>See More</button>
           </div>
+          <SquareImage size='large'></SquareImage>
         </div>
         <div className='promotion-banner'>
           <div className={'promotion-banner-left'} id={'flex-9'}>
