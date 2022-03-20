@@ -22,7 +22,9 @@ const Home: NextPage = () => {
             <div id='flex-3'>
               <Image src={'/logo.svg'} width={36} height={36} alt={'logo'} />
               <nav>
-                <MenuItem label="All Apparel Gadget"></MenuItem>
+                <MenuItem label='All'></MenuItem>
+                <MenuItem label='Apparel'></MenuItem>
+                <MenuItem label='Gadget'></MenuItem>
               </nav>
               <div className={'icon-menu'}>
                 <IconItem icon={'menu'}></IconItem>
