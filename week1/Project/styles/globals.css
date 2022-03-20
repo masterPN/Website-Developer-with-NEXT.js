@@ -163,6 +163,9 @@ button {
 }
 
 #flex-6 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 #flex-7 {

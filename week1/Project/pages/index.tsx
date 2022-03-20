@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import IconItem from '../components/IconItem'
 import MenuItem from '../components/MenuItem'
+import ProductCard from '../components/ProductCard'
 import RectBanner from '../components/RectBanner'
 import SearchInput from '../components/SearchInput'
 import SquareImage from '../components/SquareImage'
@@ -46,6 +47,16 @@ const Home: NextPage = () => {
         </div>
         <h1 className='heading'>Products</h1>
         <div className='product-list' id='flex-6'>
+          <ProductCard></ProductCard>
+          <ProductCard></ProductCard>
+          <ProductCard></ProductCard>
+          <ProductCard></ProductCard>
+          <ProductCard></ProductCard>
+          <ProductCard></ProductCard>
+          <ProductCard></ProductCard>
+          <ProductCard></ProductCard>
+          <ProductCard></ProductCard>
+          <ProductCard></ProductCard>
         </div>
         <div className='text-combo' id='flex-7'>
           <div className='paragraph-box' id='flex-8'>
