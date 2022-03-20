@@ -2,6 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import IconItem from '../components/IconItem'
+import MenuItem from '../components/MenuItem'
 import RectBanner from '../components/RectBanner'
 import SearchInput from '../components/SearchInput'
 import SquareImage from '../components/SquareImage'
@@ -20,9 +21,7 @@ const Home: NextPage = () => {
             <div id='flex-3'>
               <Image src={'/logo.svg'} width={36} height={36} alt={'logo'} />
               <nav>
-                <a href="./" className='menu-item'>All</a>
-                <a href="./" className='menu-item'>Apparel</a>
-                <a href="./" className='menu-item'>Gadget</a>
+                <MenuItem label="All Apparel Gadget"></MenuItem>
               </nav>
               <div className={'icon-menu'}>
                 <IconItem icon={'menu'}></IconItem>
